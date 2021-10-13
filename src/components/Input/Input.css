@@ -1,0 +1,24 @@
+.input {
+    display      : flex;
+    background   : rgba(255, 255, 255, 0.2);
+    height       : 40px;
+    border-radius: 5px;
+}
+
+.input input {
+    border     : none;
+    flex       : 2;
+    background : none;
+    margin-left: 13.19px;
+}
+
+.input input::placeholder {
+    color  : var(--white);
+    opacity: .5;
+}
+
+.input .input-button {
+    background : none;
+    border     : none;
+    margin-left: 9.19px;
+}
