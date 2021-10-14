@@ -1,26 +1,26 @@
 @font-face {
   font-family: Lexend Deca;
-  src        : url(./assets/fonts/LexendDeca-Regular.ttf)
+  src: url(./assets/fonts/LexendDeca-Regular.ttf)
 }
 
 * {
-  box-sizing: boder-box;
-  padding   : 0;
-  margin    : 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  font-size  : 16px;
+  font-size: 16px;
   font-family: Lexend Deca;
 }
 
 :root {
-  --blue     : #3EA1DB;
+  --blue: #3EA1DB;
   --blue-dark: #574AE8;
-  --white    : #FFF;
+  --white: #FFF;
 
   --title: #313131;
-  --text : #B6B6B6;
+  --text: #B6B6B6;
 
   --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
 }
