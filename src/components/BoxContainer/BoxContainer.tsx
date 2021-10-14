@@ -1,11 +1,8 @@
 import React from "react";
+import { TBoxContainerProps } from "../../types";
 import "./BoxContainer.css";
 
-type BoxContainerProps = {
-    children?: React.ReactNode;
-};
-
-const BoxContainer = (props: BoxContainerProps) => {
+const BoxContainer = (props: TBoxContainerProps) => {
     const { children } = props;
     return (
         <div className="box-container">
